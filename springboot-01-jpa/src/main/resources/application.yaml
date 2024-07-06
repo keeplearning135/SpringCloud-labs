@@ -11,3 +11,10 @@ spring:
     # Hibernate ??????? HibernateProperties ?
     hibernate:
       ddl-auto: none
+
+springdoc:
+  api-docs:
+    enabled: true #
+    path: /api-docs # ??/v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html #???swagger-ui HTML????
