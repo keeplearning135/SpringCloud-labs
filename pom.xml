@@ -10,8 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springboot-01-jpa</module>
-        <module>springboot-02-mybatis</module>
-        <module>springboot-03-mybatisplus</module>
+<!--        <module>springboot-02-mybatis</module>-->
+<!--        <module>springboot-03-mybatisplus</module>-->
+        <module>springboot-04-security</module>
     </modules>
 
 </project>

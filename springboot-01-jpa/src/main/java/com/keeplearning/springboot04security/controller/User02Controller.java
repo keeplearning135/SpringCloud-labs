@@ -1,7 +1,7 @@
-package com.keeplearning.springboot01jpa.controller;
+package com.keeplearning.springboot04security.controller;
 
-import com.keeplearning.springboot01jpa.entity.User;
-import com.keeplearning.springboot01jpa.repository.UserRepository02;
+import com.keeplearning.springboot04security.entity.Users;
+import com.keeplearning.springboot04security.repository.UserRepository02;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -19,24 +19,24 @@ public class User02Controller {
     private UserRepository02 userRepository;
 
     @GetMapping("/testFindAll")// 排序
-    public Iterable<User> testFindAll() {
+    public Iterable<Users> testFindAll() {
         // 创建排序条件
         Sort sort = Sort.by(Sort.Direction.DESC, "id");
         // 执行排序操作
-        Iterable<User> iterable = userRepository.findAll(sort);
+        Iterable<Users> iterable = userRepository.findAll(sort);
         // 打印
         iterable.forEach(System.out::println);
         return iterable;
     }
 
     @GetMapping("/testFindPage")// 分页
-    public Page<User> testFindPage() {
+    public Page<Users> testFindPage() {
         // 创建排序条件
         Sort sort = Sort.by(Sort.Direction.DESC, "id");
         // 创建分页条件
         Pageable pageable = PageRequest.of(1, 10, sort);
         // 执行分页操作
-        Page<User> page = userRepository.findAll(pageable);
+        Page<Users> page = userRepository.findAll(pageable);
         // 打印
         System.out.println(page.getTotalElements());
         System.out.println(page.getTotalPages());

@@ -1,6 +1,6 @@
-package com.keeplearning.springboot01jpa.repository;
+package com.keeplearning.springboot04security.repository;
 
-import com.keeplearning.springboot01jpa.entity.User;
+import com.keeplearning.springboot04security.entity.Users;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class UserRepository01Test {
 
     @Test // 插入一条记录
     public void testSave() {
-        User user = new User().setUsername(UUID.randomUUID().toString())
+        Users user = new Users().setUsername(UUID.randomUUID().toString())
                 .setPassword("guess").setCreateTime(new Date());
         userRepository.save(user);
     }
@@ -30,10 +30,10 @@ public class UserRepository01Test {
     @Test // 更新一条记录
     public void testUpdate() {
         // 先查询一条记录
-        Optional<User> Users = userRepository.findById(1);
+        Optional<Users> Users = userRepository.findById(1);
         Assert.isTrue(Users.isPresent(), "记录不能为空");
         // 更新一条记录
-        User updateUser = Users.get();
+        Users updateUser = Users.get();
         updateUser.setPassword("keeplearning135");
         userRepository.save(updateUser);
     }
@@ -45,13 +45,13 @@ public class UserRepository01Test {
 
     @Test // 根据 ID 编号，查询一条记录
     public void testSelectById() {
-        Optional<User> Users = userRepository.findById(1);
+        Optional<Users> Users = userRepository.findById(1);
         System.out.println(Users.get());
     }
 
     @Test // 根据 ID 编号数组，查询多条记录
     public void testSelectByIds() {
-        Iterable<User> users = userRepository.findAllById(Arrays.asList(1, 4));
+        Iterable<Users> users = userRepository.findAllById(Arrays.asList(1, 4));
         users.forEach(System.out::println);
     }
 

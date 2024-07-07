@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.keeplearning.springboot-01-jpa' is invalid and this project uses 'com.keeplearning.springboot01jpa' instead.
+* The original package name 'com.keeplearning.springboot-01-jpa' is invalid and this project uses 'com.keeplearning.springboot04security' instead.
 
 # Getting Started
 

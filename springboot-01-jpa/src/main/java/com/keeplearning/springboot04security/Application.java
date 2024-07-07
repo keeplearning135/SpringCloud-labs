@@ -1,4 +1,4 @@
-package com.keeplearning.springboot01jpa;
+package com.keeplearning.springboot04security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

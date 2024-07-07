@@ -2,28 +2,16 @@ package com.keeplearning.springboot02mybatis.entity;
 
 import java.util.Date;
 
-/**
- * 用户 DO
- */
+
 public class User {
 
-    /**
-     * 用户编号
-     */
+
     private Integer id;
-    /**
-     * 账号
-     */
+
     private String username;
-    /**
-     * 密码（明文）
-     *
-     * ps：生产环境下，千万不要明文噢
-     */
+
     private String password;
-    /**
-     * 创建时间
-     */
+
     private Date createTime;
 
     public Integer getId() {

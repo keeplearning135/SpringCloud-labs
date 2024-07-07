@@ -1,6 +1,6 @@
-package com.keeplearning.springboot01jpa.repository;
+package com.keeplearning.springboot04security.repository;
 
-import com.keeplearning.springboot01jpa.entity.User;
+import com.keeplearning.springboot04security.entity.Users;
 import jakarta.transaction.Transactional;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,19 +18,19 @@ public class UserRepository04Test {
 
     @Test
     public void testFindIdByUsername01() {
-        User user = userRepository.findByUsername01("yunai");
+        Users user = userRepository.findByUsername01("yunai");
         System.out.println(user);
     }
 
     @Test
     public void testFindIdByUsername02() {
-        User user = userRepository.findByUsername02("yunai");
+        Users user = userRepository.findByUsername02("yunai");
         System.out.println(user);
     }
 
     @Test
     public void testFindIdByUsername03() {
-        User user = userRepository.findByUsername03("yunai");
+        Users user = userRepository.findByUsername03("yunai");
         System.out.println(user);
     }
 

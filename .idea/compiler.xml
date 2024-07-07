@@ -10,6 +10,7 @@
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
         <module name="springboot-03-mybatisplus" />
+        <module name="springboot-04-security" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
       <module name="springboot-03-mybatisplus" options="-parameters" />
+      <module name="springboot-04-security" options="-parameters" />
     </option>
   </component>
 </project>

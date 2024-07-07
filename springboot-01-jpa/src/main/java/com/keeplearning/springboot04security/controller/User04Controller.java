@@ -1,7 +1,7 @@
-package com.keeplearning.springboot01jpa.controller;
+package com.keeplearning.springboot04security.controller;
 
-import com.keeplearning.springboot01jpa.entity.User;
-import com.keeplearning.springboot01jpa.repository.UserRepository04;
+import com.keeplearning.springboot04security.entity.Users;
+import com.keeplearning.springboot04security.repository.UserRepository04;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,22 +16,22 @@ public class User04Controller {
     private UserRepository04 userRepository;
 
     @GetMapping("/testFindIdByUsername01")
-    public User testFindIdByUsername01() {
-        User user = userRepository.findByUsername01("yunai");
+    public Users testFindIdByUsername01() {
+        Users user = userRepository.findByUsername01("yunai");
         System.out.println(user);
         return user;
     }
 
     @GetMapping("/testFindIdByUsername02")
-    public User testFindIdByUsername02() {
-        User user = userRepository.findByUsername02("yunai");
+    public Users testFindIdByUsername02() {
+        Users user = userRepository.findByUsername02("yunai");
         System.out.println(user);
         return user;
     }
 
     @GetMapping("/testFindIdByUsername03")
-    public User testFindIdByUsername03() {
-        User user = userRepository.findByUsername03("yunai");
+    public Users testFindIdByUsername03() {
+        Users user = userRepository.findByUsername03("yunai");
         System.out.println(user);
         return user;
     }

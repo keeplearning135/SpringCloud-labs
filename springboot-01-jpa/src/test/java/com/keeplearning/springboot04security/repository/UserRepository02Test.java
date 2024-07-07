@@ -1,6 +1,6 @@
-package com.keeplearning.springboot01jpa.repository;
+package com.keeplearning.springboot04security.repository;
 
-import com.keeplearning.springboot01jpa.entity.User;
+import com.keeplearning.springboot04security.entity.Users;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ public class UserRepository02Test {
         // 创建排序条件
         Sort sort = Sort.by(Sort.Direction.DESC, "id");
         // 执行排序操作
-        Iterable<User> iterable = userRepository.findAll(sort);
+        Iterable<Users> iterable = userRepository.findAll(sort);
         // 打印
         iterable.forEach(System.out::println);
     }
@@ -35,7 +35,7 @@ public class UserRepository02Test {
         // 创建分页条件
         Pageable pageable = PageRequest.of(1, 10, sort);
         // 执行分页操作
-        Page<User> page = userRepository.findAll(pageable);
+        Page<Users> page = userRepository.findAll(pageable);
         // 打印
         System.out.println(page.getTotalElements());
         System.out.println(page.getTotalPages());
