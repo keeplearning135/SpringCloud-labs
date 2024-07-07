@@ -18,6 +18,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/SpringBoot01/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-security/pom.xml" />
       </set>
     </option>
   </component>

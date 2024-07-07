@@ -10,9 +10,11 @@
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
         <module name="springboot-03-mybatisplus" />
-        <module name="springboot-04-security" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-04-security" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
