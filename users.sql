@@ -21,12 +21,12 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- Table structure for users
 -- ----------------------------
 DROP TABLE IF EXISTS `users`;
-CREATE TABLE `users`  (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `username` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `create_time` datetime NOT NULL,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
-
-SET FOREIGN_KEY_CHECKS = 1;
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '用户编号',
+  `username` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT '账号',
+  `password` varchar(32) COLLATE utf8mb4_bin DEFAULT NULL COMMENT '密码',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  `deleted` bit(1) DEFAULT NULL COMMENT '是否删除。0-未删除；1-删除',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `idx_username` (`username`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;

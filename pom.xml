@@ -11,6 +11,7 @@
     <modules>
         <module>springboot-01-jpa</module>
         <module>springboot-02-mybatis</module>
+        <module>springboot-03-mybatisplus</module>
     </modules>
 
 </project>

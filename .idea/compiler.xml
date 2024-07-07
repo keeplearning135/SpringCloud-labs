@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
+        <module name="springboot-03-mybatisplus" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
+      <module name="springboot-03-mybatisplus" options="-parameters" />
     </option>
   </component>
 </project>

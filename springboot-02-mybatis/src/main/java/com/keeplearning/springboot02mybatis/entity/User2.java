@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import com.keeplearning.springboot02mybatis.enums.UserSexEnum;
 
-public class Users2 implements Serializable {
+public class User2 implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private Long id;
@@ -13,11 +13,11 @@ public class Users2 implements Serializable {
     private UserSexEnum userSex;
     private String nickName;
 
-    public Users2() {
+    public User2() {
         super();
     }
 
-    public Users2(String userName, String passWord, UserSexEnum userSex) {
+    public User2(String userName, String passWord, UserSexEnum userSex) {
         super();
         this.passWord = passWord;
         this.userName = userName;

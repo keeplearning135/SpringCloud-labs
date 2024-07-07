@@ -1,6 +1,6 @@
 package com.keeplearning.springboot01jpa.repository;
 
-import com.keeplearning.springboot01jpa.entity.Users;
+import com.keeplearning.springboot01jpa.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class UserRepository03Test {
 
     @Test
     public void testFindByUsername() {
-        Users user = userRepository.findByUsername("yunai");
+        User user = userRepository.findByUsername("yunai");
         System.out.println(user);
     }
 
@@ -32,7 +32,7 @@ public class UserRepository03Test {
         Pageable pageable = PageRequest.of(1, 10);
         // 执行分页操作
         Date createTime = new Date(2018 - 1990, Calendar.FEBRUARY, 24); // 临时 Demo ，实际不建议这么写
-        Page<Users> page = userRepository.findByCreateTimeAfter(createTime, pageable);
+        Page<User> page = userRepository.findByCreateTimeAfter(createTime, pageable);
         // 打印
         System.out.println(page.getTotalElements());
         System.out.println(page.getTotalPages());

@@ -12,7 +12,7 @@ import java.util.Date;
 @Getter
 @Entity
 @Table(name = "users")
-public class Users {
+public class User {
 
     /**
      * 用户编号
@@ -39,22 +39,22 @@ public class Users {
     @Column(name = "create_time", nullable = false)
     private Date createTime;
 
-    public Users setId(Integer id) {
+    public User setId(Integer id) {
         this.id = id;
         return this;
     }
 
-    public Users setUsername(String username) {
+    public User setUsername(String username) {
         this.username = username;
         return this;
     }
 
-    public Users setPassword(String password) {
+    public User setPassword(String password) {
         this.password = password;
         return this;
     }
 
-    public Users setCreateTime(Date createTime) {
+    public User setCreateTime(Date createTime) {
         this.createTime = createTime;
         return this;
     }

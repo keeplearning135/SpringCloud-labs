@@ -1,6 +1,6 @@
 package com.keeplearning.springboot01jpa.controller;
 
-import com.keeplearning.springboot01jpa.entity.Users;
+import com.keeplearning.springboot01jpa.entity.User;
 import com.keeplearning.springboot01jpa.repository.UserRepository03;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -21,19 +21,19 @@ public class User03Controller {
     private UserRepository03 userRepository;
 
     @GetMapping("/testFindByUsername")
-    public Users testFindByUsername() {
-        Users user = userRepository.findByUsername("yunai");
+    public User testFindByUsername() {
+        User user = userRepository.findByUsername("yunai");
         System.out.println(user);
         return user;
     }
 
     @GetMapping("/testFindByCreateTimeAfter")
-    public Page<Users> testFindByCreateTimeAfter() {
+    public Page<User> testFindByCreateTimeAfter() {
         // 创建分页条件
         Pageable pageable = PageRequest.of(1, 10);
         // 执行分页操作
         Date createTime = new Date(2018 - 1990, Calendar.FEBRUARY, 24); // 临时 Demo ，实际不建议这么写
-        Page<Users> page = userRepository.findByCreateTimeAfter(createTime, pageable);
+        Page<User> page = userRepository.findByCreateTimeAfter(createTime, pageable);
         // 打印
         System.out.println(page.getTotalElements());
         System.out.println(page.getTotalPages());

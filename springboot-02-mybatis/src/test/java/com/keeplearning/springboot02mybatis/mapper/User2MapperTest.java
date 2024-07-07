@@ -3,7 +3,7 @@ package com.keeplearning.springboot02mybatis.mapper;
 import java.util.List;
 
 import com.keeplearning.springboot02mybatis.enums.UserSexEnum;
-import com.keeplearning.springboot02mybatis.entity.Users2;
+import com.keeplearning.springboot02mybatis.entity.User2;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,23 +20,23 @@ public class User2MapperTest {
 
     @Test
     public void testInsert() throws Exception {
-        userMapper.insert(new Users2("aa1", "a123456", UserSexEnum.MAN));
-        userMapper.insert(new Users2("bb1", "b123456", UserSexEnum.WOMAN));
-        userMapper.insert(new Users2("cc1", "b123456", UserSexEnum.WOMAN));
+        userMapper.insert(new User2("aa1", "a123456", UserSexEnum.MAN));
+        userMapper.insert(new User2("bb1", "b123456", UserSexEnum.WOMAN));
+        userMapper.insert(new User2("cc1", "b123456", UserSexEnum.WOMAN));
 
         Assert.assertEquals(3, userMapper.getAll().size());
     }
 
     @Test
     public void testQuery() throws Exception {
-        List<Users2> users = userMapper.getAll();
+        List<User2> users = userMapper.getAll();
         System.out.println(users.toString());
     }
 
 
     @Test
     public void testUpdate() throws Exception {
-        Users2 user = userMapper.getOne(30l);
+        User2 user = userMapper.getOne(30l);
         System.out.println(user.toString());
         user.setNickName("neo");
         userMapper.update(user);
