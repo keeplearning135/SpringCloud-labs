@@ -7,20 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
         <module name="springboot-03-mybatisplus" />
+        <module name="springboot-01-jpa" />
+        <module name="springboot-04-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot-dubbo-common" target="17" />
+      <module name="boot-dubbo-consumer" target="17" />
+      <module name="boot-dubbo-provider" target="17" />
+      <module name="spring-boot-dubbo" target="17" />
       <module name="springboot-04-security" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-dubbo-common" options="-parameters" />
+      <module name="boot-dubbo-consumer" options="-parameters" />
+      <module name="boot-dubbo-provider" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
       <module name="springboot-03-mybatisplus" options="-parameters" />
+      <module name="springboot-04-rabbitmq" options="-parameters" />
       <module name="springboot-04-security" options="-parameters" />
     </option>
   </component>

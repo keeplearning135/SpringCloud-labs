@@ -4,6 +4,12 @@
     <file url="file://$PROJECT_DIR$/springboot-01-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-02-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-03-mybatisplus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-dubbo/boot-dubbo-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-dubbo/boot-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-dubbo/boot-dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-dubbo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-04-security/src/main/java" charset="UTF-8" />
   </component>
 </project>
