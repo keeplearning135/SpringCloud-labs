@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
         <module name="springboot-03-mybatisplus" />
-        <module name="springboot-01-jpa" />
         <module name="springboot-04-rabbitmq" />
       </profile>
     </annotationProcessing>

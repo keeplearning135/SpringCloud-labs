@@ -1,6 +1,6 @@
-package com.keeplearning.springboot04security.repository;
+package com.keeplearning.springboot01jpa.repository;
 
-import com.keeplearning.springboot04security.entity.Users;
+import com.keeplearning.springboot01jpa.entity.Users;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

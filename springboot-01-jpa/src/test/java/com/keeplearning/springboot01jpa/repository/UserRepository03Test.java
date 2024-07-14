@@ -1,34 +1,33 @@
-package com.keeplearning.springboot04security.controller;
+package com.keeplearning.springboot01jpa.repository;
 
-import com.keeplearning.springboot04security.entity.Users;
-import com.keeplearning.springboot04security.repository.UserRepository03;
+import com.keeplearning.springboot01jpa.entity.Users;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Calendar;
 import java.util.Date;
 
-@RestController
-@RequestMapping("/api/user03")
-public class User03Controller {
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class UserRepository03Test {
 
     @Autowired
     private UserRepository03 userRepository;
 
-    @GetMapping("/testFindByUsername")
-    public Users testFindByUsername() {
+    @Test
+    public void testFindByUsername() {
         Users user = userRepository.findByUsername("yunai");
         System.out.println(user);
-        return user;
     }
 
-    @GetMapping("/testFindByCreateTimeAfter")
-    public Page<Users> testFindByCreateTimeAfter() {
+    @Test
+    public void testFindByCreateTimeAfter() {
         // 创建分页条件
         Pageable pageable = PageRequest.of(1, 10);
         // 执行分页操作
@@ -37,6 +36,6 @@ public class User03Controller {
         // 打印
         System.out.println(page.getTotalElements());
         System.out.println(page.getTotalPages());
-        return page;
     }
+
 }

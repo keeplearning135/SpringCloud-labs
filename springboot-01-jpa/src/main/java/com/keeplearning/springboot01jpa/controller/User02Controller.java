@@ -1,7 +1,7 @@
-package com.keeplearning.springboot04security.controller;
+package com.keeplearning.springboot01jpa.controller;
 
-import com.keeplearning.springboot04security.entity.Users;
-import com.keeplearning.springboot04security.repository.UserRepository02;
+import com.keeplearning.springboot01jpa.entity.Users;
+import com.keeplearning.springboot01jpa.repository.UserRepository02;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

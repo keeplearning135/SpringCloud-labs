@@ -1,4 +1,4 @@
-package com.keeplearning.springboot04security.entity;
+package com.keeplearning.springboot01jpa.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.*;

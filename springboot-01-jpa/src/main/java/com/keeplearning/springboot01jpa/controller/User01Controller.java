@@ -1,7 +1,7 @@
-package com.keeplearning.springboot04security.controller;
+package com.keeplearning.springboot01jpa.controller;
 
-import com.keeplearning.springboot04security.entity.Users;
-import com.keeplearning.springboot04security.repository.UserRepository01;
+import com.keeplearning.springboot01jpa.entity.Users;
+import com.keeplearning.springboot01jpa.repository.UserRepository01;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.GetMapping;

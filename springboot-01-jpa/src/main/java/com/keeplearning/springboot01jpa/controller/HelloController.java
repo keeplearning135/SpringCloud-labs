@@ -1,4 +1,4 @@
-package com.keeplearning.springboot04security.controller;
+package com.keeplearning.springboot01jpa.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

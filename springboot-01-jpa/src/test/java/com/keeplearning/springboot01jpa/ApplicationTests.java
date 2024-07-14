@@ -1,4 +1,4 @@
-package com.keeplearning.springboot04security;
+package com.keeplearning.springboot01jpa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
