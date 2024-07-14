@@ -10,6 +10,7 @@
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
         <module name="springboot-03-mybatisplus" />
+        <module name="lab-21-cache-redis" />
         <module name="springboot-04-rabbitmq" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="boot-dubbo-common" options="-parameters" />
       <module name="boot-dubbo-consumer" options="-parameters" />
       <module name="boot-dubbo-provider" options="-parameters" />
+      <module name="lab-21-cache-redis" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
       <module name="springboot-03-mybatisplus" options="-parameters" />

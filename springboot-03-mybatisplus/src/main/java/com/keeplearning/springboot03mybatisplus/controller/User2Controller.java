@@ -43,7 +43,8 @@ public class User2Controller {
 
     @GetMapping("testSelectById")
     public User2 testSelectById() {
-        return userMapper.selectById(1);
+        var user = userMapper.selectById(1);
+        return user;
     }
 
     @GetMapping("testSelectByUsername")

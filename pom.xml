@@ -14,6 +14,7 @@
 <!--        <module>springboot-03-mybatisplus</module>-->
 <!--        <module>springboot-04-dubbo</module>-->
         <module>springboot-04-rabbitmq</module>
+        <module>springboot-05-redis</module>
     </modules>
 
 </project>
