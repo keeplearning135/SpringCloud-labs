@@ -7,11 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-03-mybatisplus" />
+        <module name="springboot-04-rabbitmq" />
+        <module name="springboot-dubbo-provider" />
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
-        <module name="springboot-03-mybatisplus" />
+        <module name="springboot-dubbo-consumer" />
         <module name="lab-21-cache-redis" />
-        <module name="springboot-04-rabbitmq" />
+        <module name="springboot-dubbo-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +36,8 @@
       <module name="springboot-03-mybatisplus" options="-parameters" />
       <module name="springboot-04-rabbitmq" options="-parameters" />
       <module name="springboot-04-security" options="-parameters" />
+      <module name="springboot-dubbo-consumer" options="-parameters" />
+      <module name="springboot-dubbo-provider" options="-parameters" />
     </option>
   </component>
 </project>

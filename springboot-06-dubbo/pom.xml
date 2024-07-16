@@ -13,9 +13,9 @@
 <!--        <module>springboot-02-mybatis</module>-->
 <!--        <module>springboot-03-mybatisplus</module>-->
 <!--        <module>springboot-04-dubbo</module>-->
-        <module>springboot-04-rabbitmq</module>
-        <module>springboot-05-redis</module>
-        <module>springboot-06-dubbo</module>
+        <module>springboot-dubbo-api</module>
+        <module>springboot-dubbo-consumer</module>
+        <module>springboot-dubbo-provider</module>
     </modules>
 
 </project>
