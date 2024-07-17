@@ -7,14 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-03-mybatisplus" />
+        <module name="eureka-demo03-provider2" />
+        <module name="eureka-demo03-provider" />
+        <module name="eureka-demo03-consumer" />
         <module name="springboot-04-rabbitmq" />
         <module name="springboot-dubbo-provider" />
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
+        <module name="springboot-dubbo-api" />
+        <module name="springboot-03-mybatisplus" />
+        <module name="eureka-server-security" />
+        <module name="eureka-server-cluster" />
+        <module name="eureka-server-cluster3" />
+        <module name="eureka-server-cluster2" />
         <module name="springboot-dubbo-consumer" />
         <module name="lab-21-cache-redis" />
-        <module name="springboot-dubbo-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +37,13 @@
       <module name="boot-dubbo-common" options="-parameters" />
       <module name="boot-dubbo-consumer" options="-parameters" />
       <module name="boot-dubbo-provider" options="-parameters" />
+      <module name="eureka-demo03-consumer" options="-parameters" />
+      <module name="eureka-demo03-provider" options="-parameters" />
+      <module name="eureka-demo03-provider2" options="-parameters" />
+      <module name="eureka-server-cluster" options="-parameters" />
+      <module name="eureka-server-cluster2" options="-parameters" />
+      <module name="eureka-server-cluster3" options="-parameters" />
+      <module name="eureka-server-security" options="-parameters" />
       <module name="lab-21-cache-redis" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />

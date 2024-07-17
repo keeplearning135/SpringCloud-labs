@@ -1,0 +1,16 @@
+server:
+  port: 18761
+
+spring:
+  application:
+    name: eureka-server1
+
+eureka:
+  instance:
+    hostname: eureka1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      #defaultZone: http://eureka-node01:18761/eureka/
+      defaultZone: http://eureka2:18762/eureka/,http://eureka3:18763/eureka/

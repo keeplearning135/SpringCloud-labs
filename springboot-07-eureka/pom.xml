@@ -5,18 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.keeplearning135.labs</groupId>
-    <artifactId>SpringCloud-Labs</artifactId>
+    <artifactId>springboot-07-eureka</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-<!--        <module>springboot-01-jpa</module>-->
-<!--        <module>springboot-02-mybatis</module>-->
-<!--        <module>springboot-03-mybatisplus</module>-->
-<!--        <module>springboot-04-dubbo</module>-->
-        <module>springboot-04-rabbitmq</module>
-        <module>springboot-05-redis</module>
-        <module>springboot-06-dubbo</module>
-        <module>springboot-07-eureka</module>
+        <module>eureka-demo03-consumer</module>
+        <module>eureka-demo03-provider</module>
+        <module>eureka-demo03-provider2</module>
+        <module>eureka-server-cluster</module>
+        <module>eureka-server-cluster2</module>
+        <module>eureka-server-cluster3</module>
+        <module>eureka-server-security</module>
     </modules>
 
 </project>
