@@ -17,6 +17,7 @@
         <module>springboot-05-redis</module>
         <module>springboot-06-dubbo</module>
         <module>springboot-07-eureka</module>
+        <module>springboot-08-eureka-hystrix-zuul</module>
     </modules>
 
 </project>

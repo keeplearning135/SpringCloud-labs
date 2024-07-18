@@ -1,35 +1,35 @@
 # SpringCloud-Labs
 
-#### 介绍
+#### Introduction
 
-#### 软件架构
-软件架构说明
+#### Software Architecture
+Explanation of the software architecture
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
+#### Installation Guide
 
 1.  xxxx
 2.  xxxx
 3.  xxxx
 
-#### 参与贡献
+#### Usage Instructions
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### Contributing
+
+1.  Fork this repository
+2.  Create a Feat_xxx branch
+3.  Commit your changes
+4.  Submit Pull Request
 
 
-#### 特技
+#### Features
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+1.  Use Readme_XXX.md to support different languages, such as Readme_en.md, Readme_zh.md
 2.  https://github.com/keeplearning135/SpringCloud-labs
 3.  https://gitee.com/keeplearning135/SpringCloud-labs
 4.
-5.  
+
