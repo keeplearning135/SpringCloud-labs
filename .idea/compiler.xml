@@ -25,6 +25,7 @@
         <module name="eureka-client" />
         <module name="eureka-server-cluster3" />
         <module name="eureka-server-cluster2" />
+        <module name="springboot-09-zookeeper" />
         <module name="eureka-hystrix-ribbon" />
         <module name="springboot-dubbo-consumer" />
         <module name="lab-21-cache-redis" />
@@ -64,6 +65,7 @@
       <module name="springboot-03-mybatisplus" options="-parameters" />
       <module name="springboot-04-rabbitmq" options="-parameters" />
       <module name="springboot-04-security" options="-parameters" />
+      <module name="springboot-09-zookeeper" options="-parameters" />
       <module name="springboot-dubbo-consumer" options="-parameters" />
       <module name="springboot-dubbo-provider" options="-parameters" />
     </option>
