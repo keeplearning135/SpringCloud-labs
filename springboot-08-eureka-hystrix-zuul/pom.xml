@@ -13,6 +13,7 @@
         <module>eureka-server</module>
         <module>eureka-hystrix-feign</module>
         <module>eureka-hystrix-ribbon</module>
+        <module>eureka-hystrix-dashboard</module>
         <module>eureka-zuul</module>
     </modules>
     <parent>

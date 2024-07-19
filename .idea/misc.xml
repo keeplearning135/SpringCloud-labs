@@ -25,6 +25,7 @@
       <set>
         <option value="$PROJECT_DIR$/SpringBoot01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/hystrix-dashboard/pom.xml" />
       </set>
     </option>
   </component>

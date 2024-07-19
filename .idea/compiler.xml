@@ -16,6 +16,7 @@
         <module name="springboot-02-mybatis" />
         <module name="eureka-hystrix-feign" />
         <module name="eureka-zuul" />
+        <module name="eureka-hystrix-dashboard" />
         <module name="eureka-server" />
         <module name="springboot-dubbo-api" />
         <module name="springboot-03-mybatisplus" />
@@ -33,6 +34,7 @@
       <module name="boot-dubbo-common" target="17" />
       <module name="boot-dubbo-consumer" target="17" />
       <module name="boot-dubbo-provider" target="17" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="spring-boot-dubbo" target="17" />
       <module name="springboot-04-security" target="17" />
     </bytecodeTargetLevel>
@@ -46,6 +48,7 @@
       <module name="eureka-demo03-consumer" options="-parameters" />
       <module name="eureka-demo03-provider" options="-parameters" />
       <module name="eureka-demo03-provider2" options="-parameters" />
+      <module name="eureka-hystrix-dashboard" options="-parameters" />
       <module name="eureka-hystrix-feign" options="-parameters" />
       <module name="eureka-hystrix-ribbon" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
@@ -54,6 +57,7 @@
       <module name="eureka-server-cluster3" options="-parameters" />
       <module name="eureka-server-security" options="-parameters" />
       <module name="eureka-zuul" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="lab-21-cache-redis" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
