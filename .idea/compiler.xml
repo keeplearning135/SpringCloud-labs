@@ -10,8 +10,10 @@
         <module name="eureka-demo03-provider2" />
         <module name="eureka-demo03-provider" />
         <module name="eureka-demo03-consumer" />
+        <module name="springboot-05-redis" />
         <module name="springboot-04-rabbitmq" />
         <module name="springboot-dubbo-provider" />
+        <module name="springboot-10-kafka" />
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
         <module name="eureka-hystrix-feign" />
@@ -28,7 +30,6 @@
         <module name="springboot-09-zookeeper" />
         <module name="eureka-hystrix-ribbon" />
         <module name="springboot-dubbo-consumer" />
-        <module name="lab-21-cache-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,7 @@
       <module name="hystrix-dashboard" target="1.8" />
       <module name="spring-boot-dubbo" target="17" />
       <module name="springboot-04-security" target="17" />
+      <module name="springboot-06-dubbo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -59,13 +61,14 @@
       <module name="eureka-server-security" options="-parameters" />
       <module name="eureka-zuul" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
-      <module name="lab-21-cache-redis" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
       <module name="springboot-03-mybatisplus" options="-parameters" />
       <module name="springboot-04-rabbitmq" options="-parameters" />
       <module name="springboot-04-security" options="-parameters" />
+      <module name="springboot-05-redis" options="-parameters" />
       <module name="springboot-09-zookeeper" options="-parameters" />
+      <module name="springboot-10-kafka" options="-parameters" />
       <module name="springboot-dubbo-consumer" options="-parameters" />
       <module name="springboot-dubbo-provider" options="-parameters" />
     </option>

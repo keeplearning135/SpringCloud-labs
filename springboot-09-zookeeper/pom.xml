@@ -11,7 +11,7 @@
     <groupId>com.keeplearning135.labs</groupId>
     <artifactId>springboot-09-zookeeper</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zookeeper-demo</name>
+    <name>springboot-09-zookeeper</name>
     <description>Zookeeper Demo project for Spring Boot</description>
 
     <dependencies>

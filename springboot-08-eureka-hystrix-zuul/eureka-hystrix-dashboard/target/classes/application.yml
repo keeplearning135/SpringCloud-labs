@@ -3,3 +3,4 @@ server:
 hystrix:
   dashboard:
     proxy-stream-allow-list: "*"
+    #http://localhost:9002/hystrix

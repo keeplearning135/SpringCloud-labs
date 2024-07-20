@@ -19,6 +19,7 @@
         <module>springboot-07-eureka</module>
         <module>springboot-08-eureka-hystrix-zuul</module>
         <module>springboot-09-zookeeper</module>
+        <module>springboot-10-kafka</module>
     </modules>
 
 </project>
