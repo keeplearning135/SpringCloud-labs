@@ -14,10 +14,12 @@
         <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
         <module name="eureka-hystrix-dashboard" />
+        <module name="consul-consumer" />
         <module name="eureka-server" />
         <module name="nacos-consumer" />
         <module name="eureka-hystrix-ribbon" />
         <module name="nacos-provider" />
+        <module name="consul-provider" />
         <module name="eureka-demo03-provider2" />
         <module name="grpc-cloud-user-service-api" />
         <module name="springboot-05-redis" />
@@ -51,6 +53,8 @@
       <module name="boot-dubbo-common" options="-parameters" />
       <module name="boot-dubbo-consumer" options="-parameters" />
       <module name="boot-dubbo-provider" options="-parameters" />
+      <module name="consul-consumer" options="-parameters" />
+      <module name="consul-provider" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-demo03-consumer" options="-parameters" />
       <module name="eureka-demo03-provider" options="-parameters" />
