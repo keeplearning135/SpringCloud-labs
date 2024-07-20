@@ -39,5 +39,9 @@
     <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-09-zookeeper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-10-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-11-nacos/nacos-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-11-nacos/nacos-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-11-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-11-nacos/src/main/resources" charset="UTF-8" />
   </component>
 </project>
