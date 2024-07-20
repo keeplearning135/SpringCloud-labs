@@ -20,6 +20,7 @@
         <module>springboot-08-eureka-hystrix-zuul</module>
         <module>springboot-09-zookeeper</module>
         <module>springboot-10-kafka</module>
+        <module>springboot-11-nacos-grpc</module>
     </modules>
 
 </project>
