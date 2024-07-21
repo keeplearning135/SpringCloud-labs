@@ -41,7 +41,7 @@ logging:
   level:
     # dao 开启 debug 模式 mybatis 输入 sql
     cn:
-      iocoder:
+      keeplearning135:
         springboot:
           lab21:
             cache:

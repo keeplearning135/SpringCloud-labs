@@ -86,13 +86,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_descriptor;
+    return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_fieldAccessorTable
+    return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             UserGetResponse.class, UserGetResponse.Builder.class);
   }
@@ -334,13 +334,13 @@ private static final long serialVersionUID = 0L;
           UserGetResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_descriptor;
+      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_fieldAccessorTable
+      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               UserGetResponse.class, UserGetResponse.Builder.class);
     }
@@ -375,7 +375,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_descriptor;
+      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_descriptor;
     }
 
     @java.lang.Override

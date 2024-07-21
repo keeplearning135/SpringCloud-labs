@@ -21,6 +21,7 @@
         <module name="eureka-server" />
         <module name="nacos-consumer" />
         <module name="alibaba-nacos-discovery-client-resttemplate" />
+        <module name="nacos-config-demo" />
         <module name="alibaba-nacos-discovery-client-webclient" />
         <module name="eureka-hystrix-ribbon" />
         <module name="nacos-provider" />
@@ -45,6 +46,7 @@
         <module name="eureka-server-cluster2" />
         <module name="springboot-09-zookeeper" />
         <module name="springboot-dubbo-consumer" />
+        <module name="sentinel-nacos-demo" />
         <module name="alibaba-dubbo-server" />
       </profile>
     </annotationProcessing>
@@ -85,8 +87,10 @@
       <module name="eureka-server-security" options="-parameters" />
       <module name="eureka-zuul" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
+      <module name="nacos-config-demo" options="-parameters" />
       <module name="nacos-consumer" options="-parameters" />
       <module name="nacos-provider" options="-parameters" />
+      <module name="sentinel-nacos-demo" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
       <module name="springboot-03-mybatisplus" options="-parameters" />

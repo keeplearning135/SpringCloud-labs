@@ -15,25 +15,25 @@ public final class UserServiceOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_descriptor;
+    internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_fieldAccessorTable;
+      internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_descriptor;
+    internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_fieldAccessorTable;
+      internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateRequest_descriptor;
+    internal_static_com_keeplearning135_labs_userservice_api_UserCreateRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateRequest_fieldAccessorTable;
+      internal_static_com_keeplearning135_labs_userservice_api_UserCreateRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateResponse_descriptor;
+    internal_static_com_keeplearning135_labs_userservice_api_UserCreateResponse_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateResponse_fieldAccessorTable;
+      internal_static_com_keeplearning135_labs_userservice_api_UserCreateResponse_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -43,15 +43,15 @@ public final class UserServiceOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021UserService.proto\022-cn.iocoder.springcl" +
+      "\n\021UserService.proto\022-com.keeplearning135.springcl" +
       "oud.labx30.userservice.api\"\034\n\016UserGetReq" +
       "uest\022\n\n\002id\030\001 \001(\005\";\n\017UserGetResponse\022\n\n\002i" +
       "d\030\001 \001(\005\022\014\n\004name\030\002 \001(\t\022\016\n\006gender\030\003 \001(\005\"1\n" +
       "\021UserCreateRequest\022\014\n\004name\030\001 \001(\t\022\016\n\006gend" +
       "er\030\002 \001(\005\" \n\022UserCreateResponse\022\n\n\002id\030\001 \001" +
-      "(\0052\244\002\n\013UserService\022\204\001\n\003get\022=.cn.iocoder." +
+      "(\0052\244\002\n\013UserService\022\204\001\n\003get\022=.com.keeplearning135." +
       "springcloud.labx30.userservice.api.UserG" +
-      "etRequest\032>.cn.iocoder.springcloud.labx3" +
+      "etRequest\032>.com.keeplearning135.springcloud.labx3" +
       "0.userservice.api.UserGetResponse\022\215\001\n\006cr" +
       "eate\022@.com.keeplearning135.nacosgrpc.use" +
       "rservice.api.UserCreateRequest\032A.cn.ioco" +
@@ -62,29 +62,29 @@ public final class UserServiceOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_descriptor =
+    internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_fieldAccessorTable = new
+    internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_descriptor,
+        internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor,
         new java.lang.String[] { "Id", });
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_descriptor =
+    internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_fieldAccessorTable = new
+    internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetResponse_descriptor,
+        internal_static_com_keeplearning135_labs_userservice_api_UserGetResponse_descriptor,
         new java.lang.String[] { "Id", "Name", "Gender", });
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateRequest_descriptor =
+    internal_static_com_keeplearning135_labs_userservice_api_UserCreateRequest_descriptor =
       getDescriptor().getMessageTypes().get(2);
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateRequest_fieldAccessorTable = new
+    internal_static_com_keeplearning135_labs_userservice_api_UserCreateRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateRequest_descriptor,
+        internal_static_com_keeplearning135_labs_userservice_api_UserCreateRequest_descriptor,
         new java.lang.String[] { "Name", "Gender", });
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateResponse_descriptor =
+    internal_static_com_keeplearning135_labs_userservice_api_UserCreateResponse_descriptor =
       getDescriptor().getMessageTypes().get(3);
-    internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateResponse_fieldAccessorTable = new
+    internal_static_com_keeplearning135_labs_userservice_api_UserCreateResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserCreateResponse_descriptor,
+        internal_static_com_keeplearning135_labs_userservice_api_UserCreateResponse_descriptor,
         new java.lang.String[] { "Id", });
   }
 

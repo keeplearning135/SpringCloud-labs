@@ -74,13 +74,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_descriptor;
+    return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_fieldAccessorTable
+    return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             UserGetRequest.class, UserGetRequest.Builder.class);
   }
@@ -258,13 +258,13 @@ private static final long serialVersionUID = 0L;
           UserGetRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_descriptor;
+      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_fieldAccessorTable
+      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               UserGetRequest.class, UserGetRequest.Builder.class);
     }
@@ -295,7 +295,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return UserServiceOuterClass.internal_static_cn_iocoder_springcloud_labx30_userservice_api_UserGetRequest_descriptor;
+      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor;
     }
 
     @java.lang.Override

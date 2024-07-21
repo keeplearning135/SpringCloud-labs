@@ -22,9 +22,11 @@
         <module>springboot-10-kafka</module>
         <module>springboot-12-nacos-grpc</module>
         <module>springboot-11-nacos</module>
-        <module>springboot-15-consul</module>
+        <module>springboot-20-consul</module>
         <module>springboot-13-nacos-dubbo</module>
         <module>springboot-14-nacos-discovery</module>
+        <module>springboot-15-nacos-config</module>
+        <module>springboot-16-nacos-sentinel</module>
     </modules>
 
 </project>
