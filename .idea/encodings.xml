@@ -43,6 +43,10 @@
     <file url="file://$PROJECT_DIR$/springboot-11-nacos/nacos-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-11-nacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-11-nacos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-nacos-dubbo/alibaba-dubbo-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-nacos-dubbo/alibaba-dubbo-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-nacos-dubbo/alibaba-dubbo-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-nacos-dubbo/alibaba-dubbo-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-15-consul/consul-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-15-consul/consul-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-15-consul/src/main/java" charset="UTF-8" />
