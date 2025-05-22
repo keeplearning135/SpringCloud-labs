@@ -11,25 +11,28 @@
       <list>
         <option value="$PROJECT_DIR$/SpringBoot01/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-02-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-03-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-01-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-07-eureka/labx-22-scn-eureka-server-cluster3/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-07-eureka/labx-22-scn-eureka-server-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-02-mybatis2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-02-mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/SpringBoot01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/hystrix-dashboard/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

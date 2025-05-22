@@ -8,55 +8,68 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-demo03-provider" />
-        <module name="eureka-demo03-consumer" />
-        <module name="grpc-cloud-application" />
-        <module name="alibaba-nacos-discovery-client-common" />
-        <module name="alibaba-dubbo-client" />
-        <module name="springboot-04-rabbitmq" />
-        <module name="springboot-01-jpa" />
         <module name="springboot-02-mybatis" />
-        <module name="eureka-hystrix-dashboard" />
-        <module name="consul-consumer" />
-        <module name="eureka-server" />
-        <module name="nacos-consumer" />
-        <module name="alibaba-nacos-discovery-client-resttemplate" />
-        <module name="nacos-config-demo" />
-        <module name="alibaba-nacos-discovery-client-webclient" />
-        <module name="eureka-hystrix-ribbon" />
-        <module name="nacos-provider" />
-        <module name="consul-provider" />
-        <module name="eureka-demo03-provider2" />
-        <module name="grpc-cloud-user-service-api" />
-        <module name="springboot-05-redis" />
-        <module name="alibaba-dubbo-api" />
-        <module name="springboot-dubbo-provider" />
-        <module name="springboot-10-kafka" />
-        <module name="eureka-hystrix-feign" />
-        <module name="eureka-zuul" />
-        <module name="grpc-cloud-user-service" />
-        <module name="alibaba-nacos-discovery-server" />
-        <module name="springboot-dubbo-api" />
-        <module name="springboot-03-mybatisplus" />
-        <module name="eureka-server-security" />
-        <module name="alibaba-nacos-discovery-client-feign" />
-        <module name="eureka-server-cluster" />
-        <module name="eureka-client" />
-        <module name="eureka-server-cluster3" />
-        <module name="eureka-server-cluster2" />
-        <module name="springboot-09-zookeeper" />
-        <module name="springboot-dubbo-consumer" />
-        <module name="sentinel-nacos-demo" />
-        <module name="alibaba-dubbo-server" />
+        <module name="springboot-01-jpa" />
+        <module name="springboot-02-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-dubbo-api" target="1.8" />
+      <module name="alibaba-dubbo-client" target="1.8" />
+      <module name="alibaba-dubbo-server" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-common" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-feign" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-resttemplate" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-webclient" target="1.8" />
+      <module name="alibaba-nacos-discovery-server" target="1.8" />
       <module name="boot-dubbo-common" target="17" />
       <module name="boot-dubbo-consumer" target="17" />
       <module name="boot-dubbo-provider" target="17" />
+      <module name="consul-consumer" target="1.8" />
+      <module name="consul-provider" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-demo03-consumer" target="1.8" />
+      <module name="eureka-demo03-provider" target="1.8" />
+      <module name="eureka-demo03-provider2" target="1.8" />
+      <module name="eureka-hystrix-dashboard" target="1.8" />
+      <module name="eureka-hystrix-feign" target="1.8" />
+      <module name="eureka-hystrix-ribbon" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-cluster" target="1.8" />
+      <module name="eureka-server-cluster2" target="1.8" />
+      <module name="eureka-server-cluster3" target="1.8" />
+      <module name="eureka-server-security" target="1.8" />
+      <module name="eureka-zuul" target="1.8" />
+      <module name="grpc-cloud-application" target="1.8" />
+      <module name="grpc-cloud-user-service" target="1.8" />
+      <module name="grpc-cloud-user-service-api" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
+      <module name="nacos-config-demo" target="1.8" />
+      <module name="nacos-consumer" target="1.8" />
+      <module name="nacos-provider" target="1.8" />
+      <module name="sentinel-nacos-demo" target="1.8" />
       <module name="spring-boot-dubbo" target="17" />
+      <module name="springboot-01-jpa (1) (com.keeplearning135)" target="17" />
+      <module name="springboot-02-jpa" target="17" />
+      <module name="springboot-03-mybatisplus" target="17" />
+      <module name="springboot-04-rabbitmq" target="17" />
       <module name="springboot-04-security" target="17" />
+      <module name="springboot-05-redis" target="17" />
+      <module name="springboot-06-dubbo" target="1.5" />
+      <module name="springboot-07-eureka" target="1.5" />
+      <module name="springboot-08-eureka-hystrix-zuul" target="1.8" />
+      <module name="springboot-09-zookeeper" target="1.8" />
+      <module name="springboot-10-kafka" target="1.8" />
+      <module name="springboot-11-nacos" target="1.8" />
+      <module name="springboot-12-nacos-grpc" target="1.5" />
+      <module name="springboot-13-nacos-dubbo" target="1.5" />
+      <module name="springboot-14-nacos-discovery" target="1.5" />
+      <module name="springboot-16-nacos-sentinel (1)" target="1.5" />
+      <module name="springboot-16-nacos-sentinel (2)" target="1.5" />
+      <module name="springboot-20-consul" target="1.8" />
+      <module name="springboot-dubbo-api" target="1.8" />
+      <module name="springboot-dubbo-consumer" target="1.8" />
+      <module name="springboot-dubbo-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -92,6 +105,8 @@
       <module name="nacos-provider" options="-parameters" />
       <module name="sentinel-nacos-demo" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
+      <module name="springboot-01-jpa (1) (com.keeplearning135)" options="-parameters" />
+      <module name="springboot-02-jpa" options="-parameters" />
       <module name="springboot-02-mybatis" options="-parameters" />
       <module name="springboot-03-mybatisplus" options="-parameters" />
       <module name="springboot-04-rabbitmq" options="-parameters" />
