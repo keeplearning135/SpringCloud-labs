@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.keeplearning135.labs</groupId>
-    <artifactId>springboot-16-nacos-sentinel</artifactId>
+    <artifactId>springboot-15-nacos-config</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>nacos-config-demo</module>
+        <module>nacos-config-demo1</module>
     </modules>
 
 

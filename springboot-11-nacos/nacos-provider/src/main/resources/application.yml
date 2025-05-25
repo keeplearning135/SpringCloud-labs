@@ -11,3 +11,5 @@ spring:
         ip: ${server.address}
         port: ${server.port}
         server-addr: localhost:8848
+
+# 在Windows环境下，使用Spring Boot、Eureka和Nacos时，若host server未添加域名，consumer通过http://服务域名访问/provider

@@ -9,27 +9,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-consul-zuul" />
-        <module name="eureka-demo03-consumer" />
-        <module name="eureka-demo03-provider" />
         <module name="spring-cloud-consul-monitor" />
-        <module name="springboot-02-mybatis" />
-        <module name="eureka-hystrix-dashboard" />
-        <module name="eureka-server" />
         <module name="spring-cloud-consul-producer2" />
-        <module name="eureka-hystrix-ribbon" />
         <module name="consul-provider" />
         <module name="spring-cloud-consul-consumer" />
-        <module name="eureka-demo03-provider2" />
         <module name="springboot-dubbo-provider" />
-        <module name="eureka-hystrix-feign" />
-        <module name="eureka-zuul" />
         <module name="springboot-dubbo-api" />
         <module name="spring-cloud-consul-consumer2" />
-        <module name="eureka-server-security" />
-        <module name="eureka-server-cluster" />
-        <module name="eureka-client" />
-        <module name="eureka-server-cluster3" />
-        <module name="eureka-server-cluster2" />
         <module name="springboot-02-jpa" />
         <module name="spring-cloud-consul-producer" />
         <module name="springboot-dubbo-consumer" />
@@ -49,11 +35,24 @@
       <module name="boot-dubbo-provider" target="17" />
       <module name="consul-consumer" target="1.8" />
       <module name="consul-provider" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-demo03-consumer" target="1.8" />
+      <module name="eureka-demo03-provider" target="1.8" />
+      <module name="eureka-demo03-provider2" target="1.8" />
+      <module name="eureka-hystrix-dashboard" target="1.8" />
+      <module name="eureka-hystrix-feign" target="1.8" />
+      <module name="eureka-hystrix-ribbon" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-cluster" target="1.8" />
+      <module name="eureka-server-cluster2" target="1.8" />
+      <module name="eureka-server-cluster3" target="1.8" />
+      <module name="eureka-server-security" target="1.8" />
+      <module name="eureka-zuul" target="1.8" />
       <module name="grpc-cloud-application" target="1.8" />
       <module name="grpc-cloud-user-service" target="1.8" />
       <module name="grpc-cloud-user-service-api" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
-      <module name="nacos-config-demo" target="1.8" />
+      <module name="nacos-config-demo1" target="1.8" />
       <module name="nacos-consumer" target="1.8" />
       <module name="nacos-provider" target="1.8" />
       <module name="sentinel-nacos-demo" target="1.8" />
@@ -61,16 +60,22 @@
       <module name="springboot-01-jpa" target="17" />
       <module name="springboot-01-jpa (1) (com.keeplearning135)" target="17" />
       <module name="springboot-02-jpa" target="17" />
+      <module name="springboot-02-mybatis" target="17" />
       <module name="springboot-03-mybatisplus" target="17" />
       <module name="springboot-04-rabbitmq" target="17" />
       <module name="springboot-04-security" target="17" />
       <module name="springboot-05-redis" target="17" />
+      <module name="springboot-06-dubbo" target="1.5" />
+      <module name="springboot-07-eureka" target="1.5" />
+      <module name="springboot-08-eureka-hystrix-zuul" target="1.8" />
       <module name="springboot-09-zookeeper" target="1.8" />
       <module name="springboot-10-kafka" target="1.8" />
       <module name="springboot-11-nacos" target="1.8" />
       <module name="springboot-12-nacos-grpc" target="1.5" />
       <module name="springboot-13-nacos-dubbo" target="1.5" />
       <module name="springboot-14-nacos-discovery" target="1.5" />
+      <module name="springboot-15-nacos-config" target="1.5" />
+      <module name="springboot-16-nacos-sentinel" target="1.5" />
       <module name="springboot-16-nacos-sentinel (1)" target="1.5" />
       <module name="springboot-16-nacos-sentinel (2)" target="1.5" />
       <module name="springboot-20-consul" target="1.5" />
@@ -105,7 +110,7 @@
       <module name="eureka-server-security" options="-parameters" />
       <module name="eureka-zuul" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
-      <module name="nacos-config-demo" options="-parameters" />
+      <module name="nacos-config-demo1" options="-parameters" />
       <module name="nacos-consumer" options="-parameters" />
       <module name="nacos-provider" options="-parameters" />
       <module name="sentinel-nacos-demo" options="-parameters" />

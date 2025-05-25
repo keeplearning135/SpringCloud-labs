@@ -1,7 +1,7 @@
 syntax = "proto3";
 option java_multiple_files = true;
 
-package cn.iocoder.springcloud.labx30.userservice.api;
+package com.keeplearning135.nacosgrpc.userservice.api;
 
 message UserGetRequest {
     int32 id = 1;

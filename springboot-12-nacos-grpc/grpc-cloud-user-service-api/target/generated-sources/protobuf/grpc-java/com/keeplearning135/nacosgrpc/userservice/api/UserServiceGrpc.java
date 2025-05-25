@@ -1,11 +1,18 @@
 package com.keeplearning135.nacosgrpc.userservice.api;
 
 import static io.grpc.MethodDescriptor.generateFullMethodName;
+import static io.grpc.stub.ClientCalls.asyncBidiStreamingCall;
+import static io.grpc.stub.ClientCalls.asyncClientStreamingCall;
+import static io.grpc.stub.ClientCalls.asyncServerStreamingCall;
 import static io.grpc.stub.ClientCalls.asyncUnaryCall;
 import static io.grpc.stub.ClientCalls.blockingServerStreamingCall;
 import static io.grpc.stub.ClientCalls.blockingUnaryCall;
 import static io.grpc.stub.ClientCalls.futureUnaryCall;
+import static io.grpc.stub.ServerCalls.asyncBidiStreamingCall;
+import static io.grpc.stub.ServerCalls.asyncClientStreamingCall;
+import static io.grpc.stub.ServerCalls.asyncServerStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
+import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
 /**
@@ -20,29 +27,29 @@ public final class UserServiceGrpc {
   public static final String SERVICE_NAME = "com.keeplearning135.nacosgrpc.userservice.api.UserService";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<UserGetRequest,
-          UserGetResponse> getGetMethod;
+  private static volatile io.grpc.MethodDescriptor<com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest,
+      com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse> getGetMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "get",
-      requestType = UserGetRequest.class,
-      responseType = UserGetResponse.class,
+      requestType = com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.class,
+      responseType = com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<UserGetRequest,
-          UserGetResponse> getGetMethod() {
-    io.grpc.MethodDescriptor<UserGetRequest, UserGetResponse> getGetMethod;
+  public static io.grpc.MethodDescriptor<com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest,
+      com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse> getGetMethod() {
+    io.grpc.MethodDescriptor<com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest, com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse> getGetMethod;
     if ((getGetMethod = UserServiceGrpc.getGetMethod) == null) {
       synchronized (UserServiceGrpc.class) {
         if ((getGetMethod = UserServiceGrpc.getGetMethod) == null) {
           UserServiceGrpc.getGetMethod = getGetMethod =
-              io.grpc.MethodDescriptor.<UserGetRequest, UserGetResponse>newBuilder()
+              io.grpc.MethodDescriptor.<com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest, com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "get"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  UserGetRequest.getDefaultInstance()))
+                  com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  UserGetResponse.getDefaultInstance()))
+                  com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse.getDefaultInstance()))
               .setSchemaDescriptor(new UserServiceMethodDescriptorSupplier("get"))
               .build();
         }
@@ -51,29 +58,29 @@ public final class UserServiceGrpc {
     return getGetMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<UserCreateRequest,
-          UserCreateResponse> getCreateMethod;
+  private static volatile io.grpc.MethodDescriptor<com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest,
+      com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse> getCreateMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "create",
-      requestType = UserCreateRequest.class,
-      responseType = UserCreateResponse.class,
+      requestType = com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest.class,
+      responseType = com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<UserCreateRequest,
-          UserCreateResponse> getCreateMethod() {
-    io.grpc.MethodDescriptor<UserCreateRequest, UserCreateResponse> getCreateMethod;
+  public static io.grpc.MethodDescriptor<com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest,
+      com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse> getCreateMethod() {
+    io.grpc.MethodDescriptor<com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest, com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse> getCreateMethod;
     if ((getCreateMethod = UserServiceGrpc.getCreateMethod) == null) {
       synchronized (UserServiceGrpc.class) {
         if ((getCreateMethod = UserServiceGrpc.getCreateMethod) == null) {
           UserServiceGrpc.getCreateMethod = getCreateMethod =
-              io.grpc.MethodDescriptor.<UserCreateRequest, UserCreateResponse>newBuilder()
+              io.grpc.MethodDescriptor.<com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest, com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "create"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  UserCreateRequest.getDefaultInstance()))
+                  com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  UserCreateResponse.getDefaultInstance()))
+                  com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse.getDefaultInstance()))
               .setSchemaDescriptor(new UserServiceMethodDescriptorSupplier("create"))
               .build();
         }
@@ -132,15 +139,15 @@ public final class UserServiceGrpc {
 
     /**
      */
-    public void get(UserGetRequest request,
-                    io.grpc.stub.StreamObserver<UserGetResponse> responseObserver) {
+    public void get(com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest request,
+        io.grpc.stub.StreamObserver<com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse> responseObserver) {
       asyncUnimplementedUnaryCall(getGetMethod(), responseObserver);
     }
 
     /**
      */
-    public void create(UserCreateRequest request,
-                       io.grpc.stub.StreamObserver<UserCreateResponse> responseObserver) {
+    public void create(com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest request,
+        io.grpc.stub.StreamObserver<com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse> responseObserver) {
       asyncUnimplementedUnaryCall(getCreateMethod(), responseObserver);
     }
 
@@ -150,15 +157,15 @@ public final class UserServiceGrpc {
             getGetMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                      UserGetRequest,
-                      UserGetResponse>(
+                com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest,
+                com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse>(
                   this, METHODID_GET)))
           .addMethod(
             getCreateMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                      UserCreateRequest,
-                      UserCreateResponse>(
+                com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest,
+                com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse>(
                   this, METHODID_CREATE)))
           .build();
     }
@@ -180,16 +187,16 @@ public final class UserServiceGrpc {
 
     /**
      */
-    public void get(UserGetRequest request,
-                    io.grpc.stub.StreamObserver<UserGetResponse> responseObserver) {
+    public void get(com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest request,
+        io.grpc.stub.StreamObserver<com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getGetMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void create(UserCreateRequest request,
-                       io.grpc.stub.StreamObserver<UserCreateResponse> responseObserver) {
+    public void create(com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest request,
+        io.grpc.stub.StreamObserver<com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getCreateMethod(), getCallOptions()), request, responseObserver);
     }
@@ -211,14 +218,14 @@ public final class UserServiceGrpc {
 
     /**
      */
-    public UserGetResponse get(UserGetRequest request) {
+    public com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse get(com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest request) {
       return blockingUnaryCall(
           getChannel(), getGetMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public UserCreateResponse create(UserCreateRequest request) {
+    public com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse create(com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest request) {
       return blockingUnaryCall(
           getChannel(), getCreateMethod(), getCallOptions(), request);
     }
@@ -240,16 +247,16 @@ public final class UserServiceGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<UserGetResponse> get(
-        UserGetRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse> get(
+        com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getGetMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<UserCreateResponse> create(
-        UserCreateRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse> create(
+        com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getCreateMethod(), getCallOptions()), request);
     }
@@ -276,12 +283,12 @@ public final class UserServiceGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_GET:
-          serviceImpl.get((UserGetRequest) request,
-              (io.grpc.stub.StreamObserver<UserGetResponse>) responseObserver);
+          serviceImpl.get((com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest) request,
+              (io.grpc.stub.StreamObserver<com.keeplearning135.nacosgrpc.userservice.api.UserGetResponse>) responseObserver);
           break;
         case METHODID_CREATE:
-          serviceImpl.create((UserCreateRequest) request,
-              (io.grpc.stub.StreamObserver<UserCreateResponse>) responseObserver);
+          serviceImpl.create((com.keeplearning135.nacosgrpc.userservice.api.UserCreateRequest) request,
+              (io.grpc.stub.StreamObserver<com.keeplearning135.nacosgrpc.userservice.api.UserCreateResponse>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -305,7 +312,7 @@ public final class UserServiceGrpc {
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return UserServiceOuterClass.getDescriptor();
+      return com.keeplearning135.nacosgrpc.userservice.api.UserServiceOuterClass.getDescriptor();
     }
 
     @java.lang.Override

@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     @GetMapping("/echo")
+    @SentinelResource(value = "echo",
+            blockHandler = "blockHandler",
+            fallback = "fallback")
     public String echo() {
         return "echo";
     }

@@ -27,7 +27,7 @@ public class SentinelConfiguration {
     public NacosDataSource nacosDataSource(ObjectMapper objectMapper) {
         String serverAddress = "127.0.0.1:8848";
         String namespace = "";
-        String dataId = "demo-application-flow-rule";
+        String dataId = "demo-provider-flow-rule";
 //        String dataId = "example-sentinel";
         String group = "DEFAULT_GROUP";
 

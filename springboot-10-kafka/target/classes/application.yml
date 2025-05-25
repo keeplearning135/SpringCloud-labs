@@ -27,3 +27,20 @@ spring:
     listener:
       # 在侦听器容器中运行的线程数。
       concurrency: 5
+
+#https://blog.csdn.net/u011798348/article/details/147637085
+  #三者的关系
+  #Topic 与 Partition：
+  #Topic 是逻辑概念，Partition 是物理实现。
+  #生产者向 Topic 发送消息，消息被分发到不同的 Partition。
+  #Partition 数量决定 Topic 的并行处理能力。
+  #Partition 与 Consumer Group：
+  #同一 Consumer Group 中的消费者按 Partition 分配消费任务。
+  #消费者数量 ≤ Partition 数量（多余的消费者会闲置）。
+  #Consumer Group 与 Topic：
+  #不同 Consumer Group 可独立消费同一 Topic（消息被多次消费，实现“发布-订阅”模式）。
+  #同一 Consumer Group 内的消费者协作消费（实现“队列”模式）。
+
+  #清理日志文件
+  #如果Kafka日志文件损坏或无法访问，可以尝试手动删除E:\kafka_now\kafka_log目录中的内容。
+  #注意：删除日志文件将导致Kafka无法恢复之前的状态，因此请确保在删除之前备份重要数据。

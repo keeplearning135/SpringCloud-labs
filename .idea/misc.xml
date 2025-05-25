@@ -27,7 +27,9 @@
       <set>
         <option value="$PROJECT_DIR$/SpringBoot01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-01-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-02-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-20-consul/pom.xml" />
       </set>

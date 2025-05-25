@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo-application
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+grpc:
+  client:
+    user-service:
+      negotiation-type: plaintext
+
+server:
+  port: 8003 # 0 Web Server Random Port

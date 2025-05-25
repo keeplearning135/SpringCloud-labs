@@ -74,15 +74,15 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor;
+    return com.keeplearning135.nacosgrpc.userservice.api.UserServiceOuterClass.internal_static_com_keeplearning135_nacosgrpc_userservice_api_UserGetRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_fieldAccessorTable
+    return com.keeplearning135.nacosgrpc.userservice.api.UserServiceOuterClass.internal_static_com_keeplearning135_nacosgrpc_userservice_api_UserGetRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            UserGetRequest.class, UserGetRequest.Builder.class);
+            com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.class, com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.Builder.class);
   }
 
   public static final int ID_FIELD_NUMBER = 1;
@@ -134,10 +134,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof UserGetRequest)) {
+    if (!(obj instanceof com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest)) {
       return super.equals(obj);
     }
-    UserGetRequest other = (UserGetRequest) obj;
+    com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest other = (com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest) obj;
 
     if (getId()
         != other.getId()) return false;
@@ -159,69 +159,69 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static UserGetRequest parseFrom(byte[] data)
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static UserGetRequest parseFrom(java.io.InputStream input)
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
-  public static UserGetRequest parseDelimitedFrom(java.io.InputStream input)
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
-  public static UserGetRequest parseDelimitedFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static UserGetRequest parseFrom(
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -234,7 +234,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(UserGetRequest prototype) {
+  public static Builder newBuilder(com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -255,18 +255,18 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest)
-          UserGetRequestOrBuilder {
+      com.keeplearning135.nacosgrpc.userservice.api.UserGetRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor;
+      return com.keeplearning135.nacosgrpc.userservice.api.UserServiceOuterClass.internal_static_com_keeplearning135_nacosgrpc_userservice_api_UserGetRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_fieldAccessorTable
+      return com.keeplearning135.nacosgrpc.userservice.api.UserServiceOuterClass.internal_static_com_keeplearning135_nacosgrpc_userservice_api_UserGetRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              UserGetRequest.class, UserGetRequest.Builder.class);
+              com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.class, com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.Builder.class);
     }
 
     // Construct using com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.newBuilder()
@@ -295,17 +295,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return UserServiceOuterClass.internal_static_com_keeplearning135_labs_userservice_api_UserGetRequest_descriptor;
+      return com.keeplearning135.nacosgrpc.userservice.api.UserServiceOuterClass.internal_static_com_keeplearning135_nacosgrpc_userservice_api_UserGetRequest_descriptor;
     }
 
     @java.lang.Override
-    public UserGetRequest getDefaultInstanceForType() {
-      return UserGetRequest.getDefaultInstance();
+    public com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest getDefaultInstanceForType() {
+      return com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.getDefaultInstance();
     }
 
     @java.lang.Override
-    public UserGetRequest build() {
-      UserGetRequest result = buildPartial();
+    public com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest build() {
+      com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -313,8 +313,8 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public UserGetRequest buildPartial() {
-      UserGetRequest result = new UserGetRequest(this);
+    public com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest buildPartial() {
+      com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest result = new com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest(this);
       result.id_ = id_;
       onBuilt();
       return result;
@@ -354,16 +354,16 @@ private static final long serialVersionUID = 0L;
     }
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof UserGetRequest) {
-        return mergeFrom((UserGetRequest)other);
+      if (other instanceof com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest) {
+        return mergeFrom((com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(UserGetRequest other) {
-      if (other == UserGetRequest.getDefaultInstance()) return this;
+    public Builder mergeFrom(com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest other) {
+      if (other == com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest.getDefaultInstance()) return this;
       if (other.getId() != 0) {
         setId(other.getId());
       }
@@ -382,11 +382,11 @@ private static final long serialVersionUID = 0L;
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      UserGetRequest parsedMessage = null;
+      com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest parsedMessage = null;
       try {
         parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (UserGetRequest) e.getUnfinishedMessage();
+        parsedMessage = (com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest) e.getUnfinishedMessage();
         throw e.unwrapIOException();
       } finally {
         if (parsedMessage != null) {
@@ -438,12 +438,12 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest)
-  private static final UserGetRequest DEFAULT_INSTANCE;
+  private static final com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new UserGetRequest();
+    DEFAULT_INSTANCE = new com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest();
   }
 
-  public static UserGetRequest getDefaultInstance() {
+  public static com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -468,7 +468,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public UserGetRequest getDefaultInstanceForType() {
+  public com.keeplearning135.nacosgrpc.userservice.api.UserGetRequest getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 
