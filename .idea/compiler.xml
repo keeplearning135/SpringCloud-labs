@@ -8,16 +8,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-consul-consumer2" />
         <module name="spring-cloud-consul-zuul" />
         <module name="spring-cloud-consul-monitor" />
-        <module name="spring-cloud-consul-producer2" />
+        <module name="springboot-dubbo-provider" />
         <module name="springboot-02-mybatis" />
-        <module name="springboot-01-jpa" />
+        <module name="springboot-dubbo-api" />
+        <module name="spring-cloud-consul-consumer2" />
+        <module name="spring-cloud-consul-producer2" />
         <module name="springboot-02-jpa" />
         <module name="consul-provider" />
         <module name="spring-cloud-consul-consumer" />
         <module name="spring-cloud-consul-producer" />
+        <module name="springboot-dubbo-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -56,13 +58,13 @@
       <module name="nacos-provider" target="1.8" />
       <module name="sentinel-nacos-demo" target="1.8" />
       <module name="spring-boot-dubbo" target="17" />
+      <module name="springboot-01-jpa" target="17" />
       <module name="springboot-01-jpa (1) (com.keeplearning135)" target="17" />
       <module name="springboot-02-jpa" target="17" />
       <module name="springboot-03-mybatisplus" target="17" />
       <module name="springboot-04-rabbitmq" target="17" />
       <module name="springboot-04-security" target="17" />
       <module name="springboot-05-redis" target="17" />
-      <module name="springboot-06-dubbo" target="1.5" />
       <module name="springboot-07-eureka" target="1.5" />
       <module name="springboot-08-eureka-hystrix-zuul" target="1.8" />
       <module name="springboot-09-zookeeper" target="1.8" />
@@ -73,10 +75,8 @@
       <module name="springboot-14-nacos-discovery" target="1.5" />
       <module name="springboot-16-nacos-sentinel (1)" target="1.5" />
       <module name="springboot-16-nacos-sentinel (2)" target="1.5" />
+      <module name="springboot-20-consul" target="1.5" />
       <module name="springboot-consul" target="17" />
-      <module name="springboot-dubbo-api" target="1.8" />
-      <module name="springboot-dubbo-consumer" target="1.8" />
-      <module name="springboot-dubbo-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

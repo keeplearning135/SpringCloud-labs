@@ -9,24 +9,24 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springboot-01-jpa</module>
-        <module>springboot-02-mybatis</module>
+        <!-- <module>springboot-01-jpa</module>-->
+        <!--  <module>springboot-02-mybatis</module>-->
 <!--        <module>springboot-03-mybatisplus</module>-->
 <!--        <module>springboot-04-dubbo</module>
         <module>springboot-04-rabbitmq</module>
-        <module>springboot-05-redis</module>
+        <module>springboot-05-redis</module>-->
         <module>springboot-06-dubbo</module>
-        <module>springboot-07-eureka</module>
-        <module>springboot-08-eureka-hystrix-zuul</module>
-        <module>springboot-09-zookeeper</module>
-        <module>springboot-10-kafka</module>
-        <module>springboot-12-nacos-grpc</module>
-        <module>springboot-11-nacos</module>
-        <module>springboot-20-consul</module>
-        <module>springboot-13-nacos-dubbo</module>
-        <module>springboot-14-nacos-discovery</module>
-        <module>springboot-15-nacos-config</module>
-        <module>springboot-16-nacos-sentinel</module>-->
+        <!-- <module>springboot-07-eureka</module>
+         <module>springboot-08-eureka-hystrix-zuul</module>
+         <module>springboot-09-zookeeper</module>
+         <module>springboot-10-kafka</module>
+         <module>springboot-12-nacos-grpc</module>
+         <module>springboot-11-nacos</module>
+         <module>springboot-20-consul</module>
+         <module>springboot-13-nacos-dubbo</module>
+         <module>springboot-14-nacos-discovery</module>
+         <module>springboot-15-nacos-config</module>
+         <module>springboot-16-nacos-sentinel</module>-->
     </modules>
 
 </project>

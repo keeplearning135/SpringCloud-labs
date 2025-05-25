@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/springboot-04-dubbo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-04-dubbo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-04-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/hystrix-dashboard/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/src/main/resources" charset="UTF-8" />
