@@ -8,9 +8,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-consul-consumer2" />
+        <module name="spring-cloud-consul-zuul" />
+        <module name="spring-cloud-consul-monitor" />
+        <module name="spring-cloud-consul-producer2" />
         <module name="springboot-02-mybatis" />
         <module name="springboot-01-jpa" />
         <module name="springboot-02-jpa" />
+        <module name="consul-provider" />
+        <module name="spring-cloud-consul-consumer" />
+        <module name="spring-cloud-consul-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -66,7 +73,7 @@
       <module name="springboot-14-nacos-discovery" target="1.5" />
       <module name="springboot-16-nacos-sentinel (1)" target="1.5" />
       <module name="springboot-16-nacos-sentinel (2)" target="1.5" />
-      <module name="springboot-20-consul" target="1.8" />
+      <module name="springboot-consul" target="17" />
       <module name="springboot-dubbo-api" target="1.8" />
       <module name="springboot-dubbo-consumer" target="1.8" />
       <module name="springboot-dubbo-provider" target="1.8" />
@@ -104,6 +111,12 @@
       <module name="nacos-consumer" options="-parameters" />
       <module name="nacos-provider" options="-parameters" />
       <module name="sentinel-nacos-demo" options="-parameters" />
+      <module name="spring-cloud-consul-consumer" options="-parameters" />
+      <module name="spring-cloud-consul-consumer2" options="-parameters" />
+      <module name="spring-cloud-consul-monitor" options="-parameters" />
+      <module name="spring-cloud-consul-producer" options="-parameters" />
+      <module name="spring-cloud-consul-producer2" options="-parameters" />
+      <module name="spring-cloud-consul-zuul" options="-parameters" />
       <module name="springboot-01-jpa" options="-parameters" />
       <module name="springboot-01-jpa (1) (com.keeplearning135)" options="-parameters" />
       <module name="springboot-02-jpa" options="-parameters" />

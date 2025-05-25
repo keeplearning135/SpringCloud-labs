@@ -15,6 +15,14 @@
     <file url="file://$PROJECT_DIR$/springboot-11-nacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-11-nacos/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-13-nacos-dubbo/alibaba-dubbo-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/consul-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/consul-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/spring-cloud-consul-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/spring-cloud-consul-consumer2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/spring-cloud-consul-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/spring-cloud-consul-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/spring-cloud-consul-producer2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-consul/spring-cloud-consul-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-20-consul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-20-consul/src/main/resources" charset="UTF-8" />
   </component>

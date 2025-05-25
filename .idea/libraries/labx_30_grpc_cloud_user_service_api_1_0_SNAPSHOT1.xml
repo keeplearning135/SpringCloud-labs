@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="labx-30-grpc-cloud-user-service-api-1.0-SNAPSHOT1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/springboot-12-nacos-grpc/grpc-cloud-user-service-api/target/labx-30-grpc-cloud-user-service-api-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

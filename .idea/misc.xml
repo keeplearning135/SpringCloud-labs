@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/springboot-07-eureka/labx-22-scn-eureka-server-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-02-mybatis2/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-02-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-consul/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
