@@ -11,6 +11,19 @@
     <file url="file://$PROJECT_DIR$/springboot-04-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-dubbo/springboot-dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-eureka/eureka-demo03-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-eureka/eureka-demo03-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-eureka/eureka-demo03-provider2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-eureka/eureka-server-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-eureka/eureka-server-cluster2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-eureka/eureka-server-cluster3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-eureka/eureka-server-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/eureka-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/eureka-hystrix-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/eureka-hystrix-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/eureka-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/hystrix-dashboard/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-08-eureka-hystrix-zuul/src/main/resources" charset="UTF-8" />

@@ -1,4 +1,1 @@
-com\keeplearning135\feign\service\FeignService.class
-com\keeplearning135\feign\FeignApplication.class
-com\keeplearning135\feign\service\hystrix\FeignServiceHystrix.class
-com\keeplearning135\feign\web\FeignController.class
+com\keeplearning135\dashboard\Application.class

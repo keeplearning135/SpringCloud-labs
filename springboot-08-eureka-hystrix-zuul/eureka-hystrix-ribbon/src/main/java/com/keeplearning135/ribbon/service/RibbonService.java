@@ -14,7 +14,14 @@ public class RibbonService {
 
     @HystrixCommand(fallbackMethod = "queryUserInfoFallback")
     public String queryUserInfo(String userId) {
-        return restTemplate.getForObject("http://ITSTACK-DEMO-SPRINGCLOUD-EUREKA-CLIENT/api/queryUserInfo?userId=" + userId, String.class);
+        String v1="";
+        try {
+            v1 = restTemplate.getForObject("http://ITSTACK-DEMO-SPRINGCLOUD-EUREKA-CLIENT/api/queryUserInfo?userId=" + userId, String.class);
+        }
+        catch (Exception ex){
+            v1 = ex.toString();
+        }
+        return v1;
     }
 
     /**

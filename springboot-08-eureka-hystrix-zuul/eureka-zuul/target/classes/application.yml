@@ -14,10 +14,10 @@ eureka:
 # http://localhost:10001/route-b/api/queryUserInfo?userId=111
 zuul:
    ignoredPatterns: /api/**
-#  routes:
-#    api-a:
-#      path: /route-a/**
-#      serviceId: itstack-demo-springcloud-feign
-#    api-b:
-#      path: /route-b/**
-#      serviceId: itstack-demo-springcloud-ribbon
+   routes:
+      api-a:
+        path: /route-a/**
+        serviceId: itstack-demo-springcloud-feign
+      api-b:
+        path: /route-b/**
+        serviceId: itstack-demo-springcloud-ribbon

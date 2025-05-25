@@ -1,0 +1,6 @@
+server:
+  port: 9012
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
+    #http://localhost:9002/hystrix

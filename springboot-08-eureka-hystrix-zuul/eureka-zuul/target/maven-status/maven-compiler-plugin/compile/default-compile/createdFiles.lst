@@ -1,0 +1,5 @@
+org\itstack\eurekazuul\filter\TokenFilter.class
+org\itstack\eurekazuul\service\RefreshRouteService.class
+org\itstack\eurekazuul\ZuulApplication.class
+org\itstack\eurekazuul\config\ZuulConfig.class
+org\itstack\eurekazuul\router\RouteLocator.class

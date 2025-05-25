@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9012  #can not be updated, will always 9002
 hystrix:
   dashboard:
     proxy-stream-allow-list: "*"
